@@ -23,13 +23,13 @@
     <!-- Game options -->
     <string name="in_game_preferences_title">Tùy chọn trong trò chơi</string>
     <string name="suppress_fullscreen_intent_title">Chặn sự kiện toàn màn hình</string>
-    <string name="suppress_fullscreen_intent_summary">Ngăn các sự kiện toàn màn hình như cuộc gọi đến xuất hiện khi ở trong trò chơi</string>
+    <string name="suppress_fullscreen_intent_summary">Ngăn các sự kiện toàn màn hình như cuộc gọi đến xuất hiện</string>
     <string name="stay_awake_title">Không khóa màn hình</string>
     <string name="lock_gesture_title">Khóa cử chỉ</string>
     <string name="auto_brightness_disabled_title">Tắt độ sáng tự động</string>
     <string name="three_screenshot_disabled_title">Tắt cử chỉ vuốt ba ngón tay</string>
-    <string name="adb_disabled_title">Tắt gỡ lỗi USB</string>
-    <string name="gamespace_menu_opacity_title">Độ mờ bảng điều khiển nổi</string>
+    <string name="adb_disabled_title">Vô hiệu hóa gỡ lỗi USB</string>
+    <string name="gamespace_menu_opacity_title">Mức độ mờ của menu lớp phủ</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Kiểu thông báo</string>
     <string name="notification_mode_hide">Không hiển thị</string>
@@ -52,21 +52,21 @@
     <string name="per_app_title">Định cấu hình trò chơi</string>
     <string name="per_app_mode_title">Chế độ ưu tiên</string>
     <string name="per_app_angle_title">Sử dụng ANGLE (thử nghiệm)</string>
-    <string name="per_app_angle_summary">Sử dụng trình kết xuất ANGLE thay vì trình điều khiển GLES gốc.\nCẢNH BÁO!! Có thể phá vỡ đồ họa trò chơi, hãy sử dụng một cách thận trọng!</string>
+    <string name="per_app_angle_summary">Sử dụng trình kết xuất ANGLE thay vì trình điều khiển GLES gốc.\nCẢNH BÁO!! Có thể tạo ra bug đồ họa trò chơi, hãy sử dụng một cách thận trọng!</string>
     <string name="cant_find_angle_pkg">ANGLE không có sẵn trên hệ thống của bạn</string>
     <string name="per_app_unregister">Xóa %1$s khỏi thư viện</string>
     <string name="game_mode_unsupported">Không hỗ trợ</string>
     <string name="game_mode_standard">Tiêu chuẩn</string>
-    <string name="game_mode_performance">Hiệu suất cao</string>
+    <string name="game_mode_performance">Hiệu năng</string>
     <string name="game_mode_battery">Tiết kiệm pin</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">mặc định</string>
-    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ lâu để thiết lập</string>
-    <string name="custom_seekbar_default_value_is_set">Đã đặt giá trị mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="custom_seekbar_default_value_is_set">Giá trị mặc định đã được đặt</string>
     <!-- Game overlay -->
     <string name="battery_format">Pin: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
-    <string name="memory_format">Bộ nhớ có sẵn: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
+    <string name="memory_format">Bộ nhớ khả dụng: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
     <!-- Tiles -->
     <string name="game_mode_title">Chế độ</string>
     <string name="fps_Info_title">Thông tin FPS</string>
