@@ -25,10 +25,10 @@
     <string name="suppress_fullscreen_intent_title">封鎖全螢幕活動</string>
     <string name="suppress_fullscreen_intent_summary">防止如電話等的應用程式彈出全螢幕畫面</string>
     <string name="stay_awake_title">螢幕保持開啟</string>
-    <string name="lock_gesture_title">鎖定手勢</string>
+    <string name="lock_gesture_title">手勢鎖定</string>
     <string name="auto_brightness_disabled_title">停用自動亮度</string>
     <string name="three_screenshot_disabled_title">停用三指滑動手勢</string>
-    <string name="adb_disabled_title">停用 USB 偵錯</string>
+    <string name="adb_disabled_title">關閉 USB 偵錯</string>
     <string name="gamespace_menu_opacity_title">不透明度</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">通知模式</string>
@@ -37,7 +37,7 @@
     <string name="notification_mode_reticker">reTicker</string>
     <string name="notification_mode_danmaku">彈幕式通知</string>
     <!-- Ringer Mode -->
-    <string name="ringer_mode_title">鈴聲模式</string>
+    <string name="ringer_mode_title">響鈴模式</string>
     <string name="ringer_mode_silent">靜音</string>
     <string name="ringer_mode_vibrate">震動</string>
     <string name="ringer_mode_normal">正常</string>
@@ -57,16 +57,15 @@
     <string name="per_app_unregister">從遊戲庫中移除 %1$s</string>
     <string name="game_mode_unsupported">不支援</string>
     <string name="game_mode_standard">一般</string>
-    <string name="game_mode_performance">高效能</string>
+    <string name="game_mode_performance">效能</string>
     <string name="game_mode_battery">省電</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">數值： <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">預設</string>
-    <string name="custom_seekbar_default_value_to_set">預設值：<xliff:g id="v">%s</xliff:g>\n長按以設定</string>
+    <string name="custom_seekbar_default_value">默認</string>
+    <string name="custom_seekbar_default_value_to_set">默認值： <xliff:g id="v">%s</xliff:g>\n長按以設定</string>
     <string name="custom_seekbar_default_value_is_set">已設定為預設值</string>
     <!-- Game overlay -->
     <string name="battery_format">電量： <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
-    <string name="memory_format">可用記憶體：<xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
     <!-- Tiles -->
     <string name="game_mode_title">模式</string>
     <string name="fps_Info_title">幀數</string>

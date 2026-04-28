@@ -25,11 +25,11 @@
     <string name="suppress_fullscreen_intent_title">Bloquear eventos em ecrã inteiro</string>
     <string name="suppress_fullscreen_intent_summary">Impedir que ocorram eventos em ecrã inteiro, como receber chamadas</string>
     <string name="stay_awake_title">Manter ativo</string>
-    <string name="lock_gesture_title">Bloquear gestos</string>
+    <string name="lock_gesture_title">Gesto de bloqueio</string>
     <string name="auto_brightness_disabled_title">Desativar brilho automático</string>
     <string name="three_screenshot_disabled_title">Desativar gesto de deslizar três dedos</string>
     <string name="adb_disabled_title">Desativar depuração USB</string>
-    <string name="gamespace_menu_opacity_title">Transparência do menu de sobreposição</string>
+    <string name="gamespace_menu_opacity_title">Nível de opacidade do menu</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Modo de notificação</string>
     <string name="notification_mode_hide">Não mostrar</string>
@@ -46,7 +46,7 @@
     <string name="game_list_title">Biblioteca de jogos</string>
     <string name="game_list_add_title">Adicionar</string>
     <string name="app_selector_label">Escolha o seu jogo</string>
-    <string name="app_search_title">Procurar</string>
+    <string name="app_search_title">Pesquisar</string>
     <string name="game_remove_message">Tem certeza de que deseja remover %1$s da sua biblioteca?</string>
     <!-- Configure game -->
     <string name="per_app_title">Configurar jogo</string>
@@ -60,9 +60,9 @@
     <string name="game_mode_performance">Desempenho</string>
     <string name="game_mode_battery">Bateria</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Valor: <xliff:g id="value">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">padrão</string>
-    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nO Prima para definir</string>
+    <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">por definição</string>
+    <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
     <string name="custom_seekbar_default_value_is_set">O valor padrão está definido</string>
     <!-- Game overlay -->
     <string name="battery_format">Bateria: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
