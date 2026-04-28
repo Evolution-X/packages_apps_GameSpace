@@ -16,29 +16,29 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="quick_start_apps_title">Aplikacje szybkiego startu</string>
-    <string name="quick_start_apps_summary">Wybierz aplikacje do szybkiego uruchamiania</string>
+    <string name="quick_start_apps_title">Szybkie uruchamianie aplikacji</string>
+    <string name="quick_start_apps_summary">Wybierz aplikacje do szybkiego uruchomienia</string>
     <string name="settings_title">Przestrzeń gier</string>
-    <string name="settings_summary">Zarządzaj konfiguracją gier</string>
+    <string name="settings_summary">Zarządzaj swoją konfiguracją gier</string>
     <!-- Game options -->
     <string name="in_game_preferences_title">Opcje w grze</string>
     <string name="suppress_fullscreen_intent_title">Zablokuj wydarzenie na pełnym ekranie</string>
     <string name="suppress_fullscreen_intent_summary">Zapobiegaj pojawianiu się wydarzeń na pełnym ekranie, takich jak połączenia przychodzące</string>
     <string name="stay_awake_title">Pozostaw ekran włączony</string>
     <string name="lock_gesture_title">Gest blokady</string>
-    <string name="auto_brightness_disabled_title">Wyłącz automatyczną jasność</string>
+    <string name="auto_brightness_disabled_title">Wyłącz jasność automatyczną</string>
     <string name="three_screenshot_disabled_title">Wyłącz gest przesuwania trzema palcami</string>
     <string name="adb_disabled_title">Wyłącz debugowanie USB</string>
-    <string name="gamespace_menu_opacity_title">Poziom przezroczystości nakładki menu</string>
+    <string name="gamespace_menu_opacity_title">Poziom krycia nakładki menu</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Opcje powiadomień</string>
     <string name="notification_mode_hide">Nie pokazuj</string>
     <string name="notification_mode_headsup">Wyświetl jako wyskakujące powiadomienia</string>
-    <string name="notification_mode_reticker">Pokaż jako reTicker</string>
-    <string name="notification_mode_danmaku">Pokaż jako pasek Danmaku</string>
+    <string name="notification_mode_reticker">Pokaż jako kompaktowe powiadomienia</string>
+    <string name="notification_mode_danmaku">Pokaż jako komentarze na ekranie</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Tryb dzwonka</string>
-    <string name="ringer_mode_silent">Tryb cichy</string>
+    <string name="ringer_mode_silent">Wyciszenie</string>
     <string name="ringer_mode_vibrate">Wibracje</string>
     <string name="ringer_mode_normal">Normalny</string>
     <string name="ringer_mode_no_change">Nie zmieniaj</string>
@@ -51,32 +51,32 @@
     <!-- Configure game -->
     <string name="per_app_title">Skonfiguruj grę</string>
     <string name="per_app_mode_title">Preferowany tryb</string>
-    <string name="per_app_angle_title">Użyj ANGLE (eksperymentalne)</string>
-    <string name="per_app_angle_summary">Używaj renderowania ANGLE zamiast natywnych sterowników GLES.\nOSTRZEŻENIE!! Może uszkodzić grafikę gry, używaj z ostrożnością!</string>
-    <string name="cant_find_angle_pkg">ANGLE nie jest dostępne w twoim systemie</string>
+    <string name="per_app_angle_title">Użyj renderowania ANGLE (eksperymentalne)</string>
+    <string name="per_app_angle_summary">Używaj renderowania ANGLE zamiast natywnych sterowników GLES.\nOstrzeżenie!! Może to powodować błędy graficzne w grze, używaj ostrożnie!</string>
+    <string name="cant_find_angle_pkg">Renderowanie ANGLE nie jest dostępne w twoim systemie</string>
     <string name="per_app_unregister">Usuń %1$s z biblioteki</string>
-    <string name="game_mode_unsupported">Nieobsługiwane</string>
+    <string name="game_mode_unsupported">Nieobsługiwany</string>
     <string name="game_mode_standard">Standardowy</string>
     <string name="game_mode_performance">Wydajność</string>
     <string name="game_mode_battery">Bateria</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Wartość: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">domyślnie</string>
-    <string name="custom_seekbar_default_value_to_set">Wartość domyślna: <xliff:g id="v">%s</xliff:g>\nPrzytrzymaj, aby ustawić</string>
-    <string name="custom_seekbar_default_value_is_set">Wartość domyślna jest ustawiona</string>
+    <string name="custom_seekbar_default_value">domyślna</string>
+    <string name="custom_seekbar_default_value_to_set">Wartość domyślna: <xliff:g id="v">%s</xliff:g>\nPrzytrzymaj dłużej, by ustawić</string>
+    <string name="custom_seekbar_default_value_is_set">Ustawiona jest wartość domyślna</string>
     <!-- Game overlay -->
     <string name="battery_format">Bateria: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
     <string name="memory_format">Dostępna pamięć: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
     <!-- Tiles -->
     <string name="game_mode_title">Tryb</string>
-    <string name="fps_Info_title">Informacja o FPS</string>
+    <string name="fps_Info_title">Informacje o klatkach na sekundę</string>
     <string name="notification_hide">Ukryj</string>
     <string name="notification_headsup">Wyskakujące powiadomienia</string>
-    <string name="notification_reticker">reTicker</string>
-    <string name="notification_danmaku">Danmaku</string>
-    <string name="state_enabled">Włączono</string>
-    <string name="state_disabled">Wyłączono</string>
-    <string name="state_default">Domyślnie</string>
+    <string name="notification_reticker">Kompaktowy pasek powiadomień</string>
+    <string name="notification_danmaku">Komentarze na ekranie</string>
+    <string name="state_enabled">Włączone</string>
+    <string name="state_disabled">Wyłączone</string>
+    <string name="state_default">Domyślne</string>
     <string name="in_game_calls_title">Tryb połączeń</string>
     <string name="in_game_calls_no_action">Brak akcji</string>
     <string name="in_game_calls_auto_answer">Automatyczne odbieranie</string>
@@ -84,8 +84,8 @@
     <string name="in_game_calls_received_number">Odebrano połączenie od %1$s</string>
     <string name="in_game_calls_rejected_number">Odrzucono połączenie od %1$s</string>
     <!-- Danmaku Notification Mode -->
-    <string name="danmaku_notification_mode_title">Tryb powiadomień Danmaku</string>
-    <string name="danmaku_notification_mode_summary">Wyświetlaj powiadomienie jako Danmaku w postaci wypunktowanych komentarzy, gdy gra jest aktywna</string>
+    <string name="danmaku_notification_mode_title">Tryb powiadomień jako komentarze na ekranie </string>
+    <string name="danmaku_notification_mode_summary">Pokaż powiadomienie jako komentarz, czyli w trybie kapsułki, gdy gra jest aktywna</string>
     <string name="gamespace_running">Przestrzeń gier jest uruchomiona</string>
     <!-- Call overlay -->
     <string name="call_overlay_enabled_title">Nakładka połączenia</string>
