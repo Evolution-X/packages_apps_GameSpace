@@ -25,11 +25,11 @@
     <string name="suppress_fullscreen_intent_title">Blocare eveniment pe tot ecranul</string>
     <string name="suppress_fullscreen_intent_summary">Împiedicați apariția evenimentelor de pe tot ecranul, cum ar fi apelurile primite</string>
     <string name="stay_awake_title">Menține ecranul activ</string>
-    <string name="lock_gesture_title">Blochează gesturile</string>
+    <string name="lock_gesture_title">Gest de blocare</string>
     <string name="auto_brightness_disabled_title">Dezactivează luminozitatea automată</string>
     <string name="three_screenshot_disabled_title">Dezactivează gestul de trei degete</string>
-    <string name="adb_disabled_title">Dezactivează depanarea USB</string>
-    <string name="gamespace_menu_opacity_title">Opacitate pentru meniul suprapus</string>
+    <string name="adb_disabled_title">Dezactivează deparea USB</string>
+    <string name="gamespace_menu_opacity_title">Opacitate pentru meniu suprapus</string>
     <!-- Notification Mode -->
     <string name="notification_mode_title">Modul notificare</string>
     <string name="notification_mode_hide">Nu se afișează</string>
@@ -66,7 +66,6 @@
     <string name="custom_seekbar_default_value_is_set">Valoarea implicită este setată</string>
     <!-- Game overlay -->
     <string name="battery_format">Baterie: <xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
-    <string name="memory_format">Memorie disponibilă: <xliff:g id="availmemory" example="1000">%1$d</xliff:g>\/<xliff:g id="totalmemory" example="5000">%2$d</xliff:g> MB</string>
     <!-- Tiles -->
     <string name="game_mode_title">Mod</string>
     <string name="fps_Info_title">Informații FPS</string>
