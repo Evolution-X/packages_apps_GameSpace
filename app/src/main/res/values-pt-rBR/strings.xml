@@ -17,21 +17,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="quick_start_apps_title">Aplicativos de início rápido</string>
-    <string name="quick_start_apps_summary">Selecione Aplicativos para o Início Rápido</string>
-    <string name="settings_title">Espaço de Jogos</string>
-    <string name="settings_summary">Gerencie sua configuração de jogos</string>
+    <string name="quick_start_apps_summary">Selecione aplicativos para iniciar rapidamente</string>
+    <string name="settings_title">Espaço de Jogo</string>
+    <string name="settings_summary">Gerencie sua configuração de jogo</string>
     <!-- Game options -->
-    <string name="in_game_preferences_title">Opções do jogo</string>
-    <string name="suppress_fullscreen_intent_title">Bloquear eventos em tela cheia</string>
-    <string name="suppress_fullscreen_intent_summary">Impedir que eventos em tela cheia como chamadas recebidas apareçam</string>
+    <string name="in_game_preferences_title">Opções no jogo</string>
+    <string name="suppress_fullscreen_intent_title">Bloquear evento em tela cheia</string>
+    <string name="suppress_fullscreen_intent_summary">Impedir que eventos em tela cheia, como chamadas recebidas, apareçam</string>
     <string name="stay_awake_title">Permanecer ativo</string>
     <string name="lock_gesture_title">Bloquear gestos</string>
     <string name="auto_brightness_disabled_title">Desativar brilho automático</string>
-    <string name="three_screenshot_disabled_title">Desativar gesto de deslizar três dedos</string>
-    <string name="adb_disabled_title">Desativar depuração USB</string>
-    <string name="gamespace_menu_opacity_title">Nível de opacidade do menu de opções</string>
+    <string name="three_screenshot_disabled_title">Desativar gesto de deslizar com três dedos</string>
+    <string name="adb_disabled_title">Desativar a depuração USB</string>
+    <string name="gamespace_menu_opacity_title">Nível de opacidade do menu de sobreposição</string>
     <!-- Notification Mode -->
-    <string name="notification_mode_title">Estilo das notificações</string>
+    <string name="notification_mode_title">Modo de notificação</string>
     <string name="notification_mode_hide">Não exibir</string>
     <string name="notification_mode_headsup">Mostrar como notificação flutuante</string>
     <string name="notification_mode_reticker">Mostrar como reTicker</string>
@@ -41,27 +41,27 @@
     <string name="ringer_mode_silent">Silencioso</string>
     <string name="ringer_mode_vibrate">Vibrar</string>
     <string name="ringer_mode_normal">Normal</string>
-    <string name="ringer_mode_no_change">Não mudar</string>
+    <string name="ringer_mode_no_change">Não alterar</string>
     <!-- Game picker -->
     <string name="game_list_title">Biblioteca</string>
     <string name="game_list_add_title">Adicionar</string>
     <string name="app_selector_label">Escolha seu jogo</string>
-    <string name="app_search_title">Pesquisa</string>
+    <string name="app_search_title">Pesquisar</string>
     <string name="game_remove_message">Tem certeza de que deseja remover %1$s da sua lista de jogos?</string>
     <!-- Configure game -->
     <string name="per_app_title">Configurar jogo</string>
-    <string name="per_app_mode_title">Modo preferencial</string>
+    <string name="per_app_mode_title">Modo preferido</string>
     <string name="per_app_angle_title">Usar ANGLE (experimental)</string>
-    <string name="per_app_angle_summary">Usando renderizador ANGLE em vez de drivers GLES nativos.\nAVISO!! Pode quebrar gráficos do jogo, use com cuidado!</string>
-    <string name="cant_find_angle_pkg">ANGLE não está disponível no seu sistema</string>
+    <string name="per_app_angle_summary">Usando o renderizador ANGLE em vez de drivers GLES nativos.\nAVISO!! Pode quebrar os gráficos do jogo, use com cautela!</string>
+    <string name="cant_find_angle_pkg">ANGLE não está disponível em seu sistema</string>
     <string name="per_app_unregister">Remover %1$s da biblioteca</string>
-    <string name="game_mode_unsupported">Incompatível</string>
+    <string name="game_mode_unsupported">Não suportado</string>
     <string name="game_mode_standard">Padrão</string>
     <string name="game_mode_performance">Desempenho</string>
     <string name="game_mode_battery">Bateria</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">valor padrão</string>
+    <string name="custom_seekbar_default_value">por padrão</string>
     <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id="v">%s</xliff:g>\nToque longo para definir</string>
     <string name="custom_seekbar_default_value_is_set">Valor padrão definido</string>
     <!-- Game overlay -->
@@ -71,7 +71,7 @@
     <string name="game_mode_title">Modo</string>
     <string name="fps_Info_title">Informações de FPS</string>
     <string name="notification_hide">Ocultar</string>
-    <string name="notification_headsup">Notificações flutuantes</string>
+    <string name="notification_headsup">Notificação flutuante</string>
     <string name="notification_reticker">reTicker</string>
     <string name="notification_danmaku">Danmaku</string>
     <string name="state_enabled">Ativado</string>
@@ -85,29 +85,29 @@
     <string name="in_game_calls_rejected_number">Chamada recusada de %1$s</string>
     <!-- Danmaku Notification Mode -->
     <string name="danmaku_notification_mode_title">Modo de notificação Danmaku</string>
-    <string name="danmaku_notification_mode_summary">Mostrar notificações como balões de comentários durante o jogo</string>
+    <string name="danmaku_notification_mode_summary">Exibir notificações como comentários em formato de bala (danmaku) enquanto o jogo estiver ativo</string>
     <string name="gamespace_running">Espaço de jogo em execução</string>
     <!-- Call overlay -->
     <string name="call_overlay_enabled_title">Sobreposição de chamada</string>
     <string name="call_overlay_enabled_summary">Mostrar sobreposição de chamada mínima para atender/rejeitar chamadas</string>
     <!-- Game Optimization -->
-    <string name="game_optimization_title">Launch Optimization</string>
-    <string name="game_launch_boost_title">Launch Boost</string>
-    <string name="game_launch_boost_summary">Optimize CPU and memory for faster game launch</string>
-    <string name="game_memory_management_title">Smart Memory Management</string>
-    <string name="game_memory_management_summary">Automatically clear background apps when launching games</string>
-    <string name="game_load_priority_title">Loading Priority</string>
-    <string name="game_load_priority_summary">Set resource priority during game launch</string>
-    <string name="game_cache_management_title">Cache Management</string>
-    <string name="game_cache_management_summary">Optimize game cache for faster loading times</string>
+    <string name="game_optimization_title">Otimização de Inicialização</string>
+    <string name="game_launch_boost_title">Boost de Lançamento</string>
+    <string name="game_launch_boost_summary">Otimize CPU e memória para iniciar jogos mais rapidamente</string>
+    <string name="game_memory_management_title">Gerenciamento inteligente de memória</string>
+    <string name="game_memory_management_summary">Limpe automaticamente aplicativos em segundo plano ao iniciar jogos</string>
+    <string name="game_load_priority_title">Prioridade de carregamento</string>
+    <string name="game_load_priority_summary">Defina a prioridade dos recursos durante o lançamento do jogo</string>
+    <string name="game_cache_management_title">Gerenciamento de Cache</string>
+    <string name="game_cache_management_summary">Otimize o cache do jogo para tempos de carregamento mais rápidos</string>
     <string-array name="game_load_priority_entries">
-        <item>Balanced (Recommended)</item>
-        <item>Maximum Performance</item>
-        <item>Power Saving</item>
+        <item>Equilibrado (recomendado)</item>
+        <item>Desempenho Máximo</item>
+        <item>Economia de energia</item>
     </string-array>
     <string-array name="game_load_priority_values">
-        <item>balanced</item>
-        <item>performance</item>
-        <item>powersave</item>
+        <item>equilibrado</item>
+        <item>desempenho</item>
+        <item>economia de energia</item>
     </string-array>
 </resources>
