@@ -24,9 +24,9 @@
     <string name="in_game_preferences_title">Opcje w grze</string>
     <string name="suppress_fullscreen_intent_title">Zablokuj wydarzenie na pełnym ekranie</string>
     <string name="suppress_fullscreen_intent_summary">Zapobiegaj pojawianiu się wydarzeń na pełnym ekranie, takich jak połączenia przychodzące</string>
-    <string name="stay_awake_title">Pozostaw ekran włączony</string>
+    <string name="stay_awake_title">Nie usypiaj</string>
     <string name="lock_gesture_title">Gest blokady</string>
-    <string name="auto_brightness_disabled_title">Wyłącz jasność automatyczną</string>
+    <string name="auto_brightness_disabled_title">Wyłącz automatyczną jasność</string>
     <string name="three_screenshot_disabled_title">Wyłącz gest przesuwania trzema palcami</string>
     <string name="adb_disabled_title">Wyłącz debugowanie USB</string>
     <string name="gamespace_menu_opacity_title">Poziom krycia nakładki menu</string>
@@ -35,28 +35,28 @@
     <string name="notification_mode_hide">Nie pokazuj</string>
     <string name="notification_mode_headsup">Wyświetl jako wyskakujące powiadomienia</string>
     <string name="notification_mode_reticker">Pokaż jako kompaktowe powiadomienia</string>
-    <string name="notification_mode_danmaku">Pokaż jako komentarze na ekranie</string>
+    <string name="notification_mode_danmaku">Pokaż jako komentarze</string>
     <!-- Ringer Mode -->
     <string name="ringer_mode_title">Tryb dzwonka</string>
-    <string name="ringer_mode_silent">Wyciszenie</string>
-    <string name="ringer_mode_vibrate">Wibracje</string>
+    <string name="ringer_mode_silent">Cisza</string>
+    <string name="ringer_mode_vibrate">Wibracja</string>
     <string name="ringer_mode_normal">Normalny</string>
     <string name="ringer_mode_no_change">Nie zmieniaj</string>
     <!-- Game picker -->
     <string name="game_list_title">Biblioteka</string>
     <string name="game_list_add_title">Dodaj</string>
     <string name="app_selector_label">Wybierz swoją grę</string>
-    <string name="app_search_title">Szukaj</string>
+    <string name="app_search_title">Wyszukaj</string>
     <string name="game_remove_message">Czy na pewno chcesz usunąć %1$s z listy gier?</string>
     <!-- Configure game -->
     <string name="per_app_title">Skonfiguruj grę</string>
     <string name="per_app_mode_title">Preferowany tryb</string>
-    <string name="per_app_angle_title">Użyj renderowania ANGLE (eksperymentalne)</string>
+    <string name="per_app_angle_title">Użyj ANGLE (eksperymentalne)</string>
     <string name="per_app_angle_summary">Używaj renderowania ANGLE zamiast natywnych sterowników GLES.\nOstrzeżenie!! Może to powodować błędy graficzne w grze, używaj ostrożnie!</string>
-    <string name="cant_find_angle_pkg">Renderowanie ANGLE nie jest dostępne w twoim systemie</string>
+    <string name="cant_find_angle_pkg">ANGLE nie jest dostępne w twoim systemie</string>
     <string name="per_app_unregister">Usuń %1$s z biblioteki</string>
-    <string name="game_mode_unsupported">Nieobsługiwany</string>
-    <string name="game_mode_standard">Standardowy</string>
+    <string name="game_mode_unsupported">Nieobsługiwane</string>
+    <string name="game_mode_standard">Standardowe</string>
     <string name="game_mode_performance">Wydajność</string>
     <string name="game_mode_battery">Bateria</string>
     <!-- Custom seekbar -->
@@ -72,34 +72,34 @@
     <string name="fps_Info_title">Informacje o klatkach na sekundę</string>
     <string name="notification_hide">Ukryj</string>
     <string name="notification_headsup">Wyskakujące powiadomienia</string>
-    <string name="notification_reticker">Kompaktowy pasek powiadomień</string>
-    <string name="notification_danmaku">Komentarze na ekranie</string>
+    <string name="notification_reticker">Kompaktowe powiadomienia</string>
+    <string name="notification_danmaku">Komentarze</string>
     <string name="state_enabled">Włączone</string>
     <string name="state_disabled">Wyłączone</string>
     <string name="state_default">Domyślne</string>
     <string name="in_game_calls_title">Tryb połączeń</string>
-    <string name="in_game_calls_no_action">Brak akcji</string>
+    <string name="in_game_calls_no_action">Brak działania</string>
     <string name="in_game_calls_auto_answer">Automatyczne odbieranie</string>
     <string name="in_game_calls_auto_reject">Automatyczne odrzucanie</string>
     <string name="in_game_calls_received_number">Odebrano połączenie od %1$s</string>
     <string name="in_game_calls_rejected_number">Odrzucono połączenie od %1$s</string>
     <!-- Danmaku Notification Mode -->
-    <string name="danmaku_notification_mode_title">Tryb powiadomień jako komentarze na ekranie </string>
+    <string name="danmaku_notification_mode_title">Tryb powiadomień jako komentarze</string>
     <string name="danmaku_notification_mode_summary">Pokaż powiadomienie jako komentarz, czyli w trybie kapsułki, gdy gra jest aktywna</string>
     <string name="gamespace_running">Przestrzeń gier jest uruchomiona</string>
     <!-- Call overlay -->
     <string name="call_overlay_enabled_title">Nakładka połączenia</string>
-    <string name="call_overlay_enabled_summary">Pokazuj minimalną nakładkę podczas odbierania/odrzucania połączeń telefonicznych</string>
+    <string name="call_overlay_enabled_summary">Pokazuj minimalną nakładkę podczas odbierania/odrzucania połączeń</string>
     <!-- Game Optimization -->
     <string name="game_optimization_title">Uruchom optymalizację</string>
     <string name="game_launch_boost_title">Uruchom przyspieszenie</string>
-    <string name="game_launch_boost_summary">Zoptymalizuj wykorzystanie procesora i pamięci, aby gra uruchamiała się szybciej</string>
+    <string name="game_launch_boost_summary">Zoptymalizuj procesor i pamięć, aby szybciej uruchamiać gry</string>
     <string name="game_memory_management_title">Inteligentne zarządzanie pamięcią</string>
-    <string name="game_memory_management_summary">Automatycznie zamykaj aplikacje działające w tle podczas uruchamiania gier</string>
-    <string name="game_load_priority_title">Ładowanie priorytetowe</string>
+    <string name="game_memory_management_summary">Automatyczne czyszczenie aplikacji działających w tle podczas uruchamiania gier</string>
+    <string name="game_load_priority_title">Priorytet ładowania</string>
     <string name="game_load_priority_summary">Ustaw priorytet zasobów podczas uruchamiania gry</string>
     <string name="game_cache_management_title">Zarządzanie pamięcią podręczną</string>
-    <string name="game_cache_management_summary">Optymalizuj pamięć podręczną gry dla szybszego ładowania</string>
+    <string name="game_cache_management_summary">Zoptymalizuj pamięć podręczną gry, aby przyspieszyć czas ładowania</string>
     <string-array name="game_load_priority_entries">
         <item>Zrównoważone (zalecane)</item>
         <item>Maksymalna wydajność</item>
