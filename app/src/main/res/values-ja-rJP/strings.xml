@@ -18,16 +18,16 @@
     <string name="quick_start_apps_summary">素早く起動するアプリを選択</string>
     <!-- Auto brightness -->
     <string name="auto_brightness_disabled_title">自動明るさ調節を無効化</string>
-    <string name="auto_brightness_disabled_summary">ゲーム中は明るさを維持</string>
+    <string name="auto_brightness_disabled_summary">ゲームプレイ中の画面の明るさを固定する</string>
     <!-- Three finger swipe -->
-    <string name="three_screenshot_disabled_summary">ゲーム中は3本指のスワイプでのジェスチャーを無効化します</string>
+    <string name="three_screenshot_disabled_summary">ゲームプレイ中、三本指スワイプジェスチャーを一時的に無効化する</string>
     <string name="three_screenshot_disabled_title">3本指スワイプジェスチャーを無効化</string>
     <!-- Stay awake -->
     <string name="stay_awake_title">常に画面点灯</string>
-    <string name="stay_awake_summary">ゲーム中は画面をスリープ状態にしない</string>
+    <string name="stay_awake_summary">ゲームプレイ中は画面を常時点灯させる</string>
     <!-- Lock gesture -->
     <string name="lock_gesture_title">ジェスチャーをロック</string>
-    <string name="lock_gesture_summary">ゲーム中の画面ジェスチャーを無効にする</string>
+    <string name="lock_gesture_summary">ゲームプレイ中の画面ジェスチャーを無効化する</string>
     <!-- Suppress full screen intent -->
     <string name="suppress_fullscreen_intent_title">全画面表示イベントをブロック</string>
     <string name="suppress_fullscreen_intent_summary">ゲーム中は着信通話のような全画面イベントが表示されないようにする</string>
@@ -38,7 +38,7 @@
     <string name="per_app_unregister">%1$s をライブラリから削除</string>
     <!-- Disable ADB debugging -->
     <string name="adb_disabled_title">USB デバッグを無効化</string>
-    <string name="adb_disabled_summary">ゲーム中に USB ADB デバッグを一時的に無効化</string>
+    <string name="adb_disabled_summary">ゲームプレイ中、USB ADB デバッグを一時的に無効化する</string>
     <!-- Ringer Mode -->
     <string name="in_game_calls_title">着信モード</string>
     <string name="in_game_calls_no_action">なし</string>
@@ -52,12 +52,11 @@
     <!-- Gamespace opacity -->
     <string name="gamespace_menu_opacity_title">オーバーレイメニューの不透明度</string>
     <!-- Bypass charging -->
-    <string name="bypass_charge_enabled_title">バイパス充電</string>
-    <string name="bypass_charge_enabled_summary">ゲーム中にバイパス充電を有効にする</string>
+    <string name="bypass_charge_enabled_title">バイパス給電</string>
+    <string name="bypass_charge_enabled_summary">ゲームプレイ中のバイパス給電を有効にする</string>
     <!-- Call overlay -->
-    <string name="call_overlay_enabled_title">通話オーバーレイ</string>
-    <string name="call_overlay_enabled_summary">通話の応答/拒否に小さい
-オーバーレイを表示する</string>
+    <string name="call_overlay_enabled_title">着信オーバーレイ</string>
+    <string name="call_overlay_enabled_summary">通話の応答や拒否を行える最小限の着信オーバーレイを表示する</string>
     <!-- Ringer Mode Options -->
     <string name="ringer_mode_title">着信音モード</string>
     <string name="ringer_mode_silent">サイレント</string>
@@ -71,49 +70,49 @@
     <string name="game_mode_battery">バッテリー優先</string>
     <!-- Game Panel -->
     <string name="save">保存</string>
-    <string name="panel_options">パネルの設定</string>
+    <string name="panel_options">パネルオプション</string>
     <string name="brightness_slider">明るさスライダー</string>
-    <string name="fps_graph">FPSグラフ</string>
-    <string name="selected_tiles">選択したタイル</string>
+    <string name="fps_graph">FPS グラフ</string>
+    <string name="selected_tiles">選択中のタイル</string>
     <string name="available_tiles">利用可能なタイル</string>
     <string name="drag_tiles_here">ここにタイルをドラッグ</string>
-    <string name="all_tiles_added">すべてのタイルが追加されました</string>
-    <string name="fps_stats">分 %1$d | 平均 %2$d | 最大 %3$d</string>
+    <string name="all_tiles_added">すべてのタイルを追加済み</string>
+    <string name="fps_stats">min %1$d | avg %2$d | max %3$d</string>
     <!-- Tile Labels -->
-    <string name="tile_danmaku">Danmaku</string>
+    <string name="tile_danmaku">弾幕</string>
     <string name="tile_stay_awake">常に画面点灯</string>
     <string name="tile_wifi">Wi-Fi</string>
     <string name="tile_dnd">DND</string>
     <string name="tile_fps_info">FPS 情報</string>
     <string name="tile_auto_rotate">自動回転</string>
-    <string name="tile_boost_memory">メモリをブースト</string>
+    <string name="tile_boost_memory">メモリブースト</string>
     <string name="tile_settings">設定</string>
     <string name="tile_airplane_mode">機内モード</string>
     <string name="tile_bluetooth">Bluetooth</string>
     <string name="tile_mobile_data">モバイルデータ</string>
     <string name="tile_touch_boost">タッチブースト</string>
-    <string name="tile_flashlight">ライト</string>
+    <string name="tile_flashlight">フラッシュライト</string>
     <string name="tile_dark_mode">ダークモード</string>
     <string name="tile_location">位置情報</string>
     <string name="tile_battery_saver">バッテリーセーバー</string>
     <string name="tile_hotspot">ホットスポット</string>
     <string name="tile_nfc">NFC</string>
     <string name="tile_night_light">夜間モード</string>
-    <string name="tile_aod">常時表示ディスプレイ (AOD)</string>
+    <string name="tile_aod">AOD</string>
     <string name="tile_data_saver">データセーバー</string>
     <string name="tile_color_inversion">色反転</string>
     <string name="tile_color_correction">色補正</string>
-    <string name="tile_reduce_brightness">さらに暗くする</string>
+    <string name="tile_reduce_brightness">輝度を下げる</string>
     <string name="tile_one_handed">片手モード</string>
     <string name="tile_heads_up">ポップアップ通知</string>
     <string name="tile_auto_sync">自動同期</string>
     <string name="tile_camera_privacy">カメラ</string>
     <string name="tile_mic_privacy">マイク</string>
     <string name="tile_work_profile">仕事用プロファイル</string>
-    <string name="tile_usb_tether">USBテザリング</string>
+    <string name="tile_usb_tether">USB テザリング</string>
     <string name="tile_dream">スクリーンセーバー</string>
     <string name="tile_reading_mode">読書モード</string>
-    <string name="tile_power_share">パワー共有</string>
+    <string name="tile_power_share">バッテリーシェア</string>
     <string name="tile_caffeine">カフェイン</string>
     <string name="tile_vpn">VPN</string>
     <string name="tile_cast">キャスト</string>
@@ -122,34 +121,34 @@
     <string name="tile_screen_record">画面録画</string>
     <string name="tile_screenshot">スクリーンショット</string>
     <!-- Icon Idle Opacity -->
-    <string name="icon_idle_opacity_title">アイコンの不透明度</string>
+    <string name="icon_idle_opacity_title">非操作時のアイコンの不透明度</string>
     <!-- Auto DND -->
-    <string name="auto_dnd_title">自動DND</string>
-    <string name="auto_dnd_summary">ゲーム内でDNDを自動的に有効にし、完了時に復元します</string>
+    <string name="auto_dnd_title">自動 DND</string>
+    <string name="auto_dnd_summary">ゲーム中に自動で DND を有効化し、終了時に復元する</string>
     <!-- Controller Mapper -->
     <string name="mapper_press_button">コントローラーまたはキーボードのボタンを押してください\u2026</string>
     <string name="mapper_add_point">タップポイントを追加</string>
     <string name="mapper_delete_point">タップポイントを削除</string>
-    <string name="mapper_map_controls">地図操作</string>
+    <string name="mapper_map_controls">コントロールを割り当て</string>
     <!-- Content Descriptions (Accessibility) -->
     <string name="cd_reject">拒否</string>
-    <string name="cd_accept">同意</string>
+    <string name="cd_accept">応答</string>
     <string name="cd_caller_photo">発信者の写真</string>
     <string name="cd_dismiss">閉じる</string>
     <string name="cd_edit_tiles">タイルを編集</string>
-    <string name="cd_collapse">閉じる</string>
+    <string name="cd_collapse">折りたたむ</string>
     <string name="cd_expand">展開</string>
     <!-- Game Optimization -->
-    <string name="game_optimization_title">最適化</string>
+    <string name="game_optimization_title">起動の最適化</string>
     <string name="game_memory_management_title">スマートメモリ管理</string>
-    <string name="game_memory_management_summary">ゲーム起動時にバックグラウンドアプリを自動的に消去する</string>
+    <string name="game_memory_management_summary">ゲーム起動時にバックグラウンドアプリを自動でクリアする</string>
     <string name="game_cache_management_title">キャッシュ管理</string>
-    <string name="game_cache_management_summary">読み込み時間を短縮するためにゲームキャッシュを最適化</string>
+    <string name="game_cache_management_summary">ゲームの読み込みを高速化するためにキャッシュを最適化する</string>
     <string name="game_memory_boosted">メモリをブーストしました</string>
     <!-- Game auto-detect -->
-    <string name="auto_game_detect_title">自動ゲーム検出</string>
-    <string name="auto_game_detect_summary">開発者によってゲームとしてマークされたアプリを自動的に追加</string>
+    <string name="auto_game_detect_title">ゲームの自動検出</string>
+    <string name="auto_game_detect_summary">開発者によってゲームとしてマークされたアプリを自動的に追加する</string>
     <!-- Pulse bass haptics -->
-    <string name="pulse_bass_haptics_disabled_title">低音ハプティクスを無効</string>
-    <string name="pulse_bass_haptics_disabled_summary">有効な場合は自動的に低音ハプティクスを無効にする</string>
+    <string name="pulse_bass_haptics_disabled_title">パルス低音ハプティクスを無効化</string>
+    <string name="pulse_bass_haptics_disabled_summary">有効な場合、パルス低音ハプティクスを自動的に無効化する</string>
 </resources>
